@@ -17,15 +17,29 @@ import java.util.Scanner;
  */
 public class Shpion {
     
+    
     public static void main(String[] args) {
         
+        String Territory1 = "База террористов";
+        String Territory2 = "Партизанский отряд";
+        String Territory3 = "Киностудия";
+        String Territory4 = "Полярная станция";
+        String Territory5 = "Банк";
+        String Territory6 = "Театр";
+        String Territory7 = "Больница";
+        String Territory8 = "Пиратский корабль";
+        String Territory9 = "Университет";
+        String Territory10 = "Церковь";
+        String Territory11 = "Казино";
+        String TerritoryShpion = "Шпион";
+        
+      
         Random ran = new Random();
         int namber = ran.nextInt(11)+1;
-        //System.out.println(namber);
         
-        switch (namber){
+        switch (1){
             case 1:             
-                String[] array1 = {"База террористов", "База террористов", "База террористов", "Шпион"};
+                String[] array1 = {Territory1, Territory1, Territory1, TerritoryShpion};
                 List<String> list1 = new LinkedList<String>(Arrays.<String>asList(array1));
                 Collections.shuffle(list1);
                 //System.out.println(list);
@@ -52,7 +66,7 @@ public class Shpion {
             
             case 2:
                 //System.out.println("Партизанский отряд");
-                String[] array2 = {"Партизанский отряд", "Партизанский отряд", "Партизанский отряд", "Шпион"};
+                String[] array2 = {Territory2, Territory2, Territory2, TerritoryShpion};
                 List<String> list2 = new LinkedList<String>(Arrays.<String>asList(array2));
                 Collections.shuffle(list2);
                 
@@ -78,7 +92,7 @@ public class Shpion {
                 
             case 3:
                 //System.out.println("Киностудия");
-                String[] array3 = {"Киностудия", "Киностудия", "Киностудия", "Шпион"};
+                String[] array3 = {Territory3, Territory3, Territory3, TerritoryShpion};
                 List<String> list3 = new LinkedList<String>(Arrays.<String>asList(array3));
                 Collections.shuffle(list3);
                 
@@ -104,7 +118,7 @@ public class Shpion {
                 
             case 4:
                 //System.out.println("Полярная станция");
-                String[] array4 = {"Полярная станция", "Полярная станция", "Полярная станция", "Шпион"};
+                String[] array4 = {Territory4, Territory4, Territory4, TerritoryShpion};
                 List<String> list4 = new LinkedList<String>(Arrays.<String>asList(array4));
                 Collections.shuffle(list4);
                 //System.out.println(list);
@@ -131,7 +145,7 @@ public class Shpion {
                 
             case 5:
                 //System.out.println("Банк");
-                String[] array5 = {"Банк", "Банк", "Банк", "Шпион"};
+                String[] array5 = {Territory5, Territory5, Territory5, TerritoryShpion};
                 List<String> list5 = new LinkedList<String>(Arrays.<String>asList(array5));
                 Collections.shuffle(list5);
                 
@@ -157,7 +171,7 @@ public class Shpion {
                 
             case 6:
                 //System.out.println("Театр");
-                String[] array6 = {"Театр", "Театр", "Театр", "Шпион"};
+                String[] array6 = {Territory6, Territory6, Territory6, TerritoryShpion};
                 List<String> list6 = new LinkedList<String>(Arrays.<String>asList(array6));
                 Collections.shuffle(list6);
                 
@@ -183,7 +197,7 @@ public class Shpion {
                 
             case 7:
                 //System.out.println("Больница");
-                String[] array7 = {"Больница", "Больница", "Больница", "Шпион"};
+                String[] array7 = {Territory7, Territory7, Territory7, TerritoryShpion};
                 List<String> list7 = new LinkedList<String>(Arrays.<String>asList(array7));
                 Collections.shuffle(list7);
                 
@@ -209,7 +223,7 @@ public class Shpion {
                 
             case 8:
                 //System.out.println("Пиратский  корабль");
-                String[] array8 = {"Пиратский корабль", "Пиратский корабль", "Пиратский корабль", "Шпион"};
+                String[] array8 = {Territory8, Territory8, Territory8, TerritoryShpion};
                 List<String> list8 = new LinkedList<String>(Arrays.<String>asList(array8));
                 Collections.shuffle(list8);
                 
@@ -235,7 +249,7 @@ public class Shpion {
                 
             case 9:
                 //System.out.println("Университет");
-                String[] array9 = {"Университет", "Университет", "Университет", "Шпион"};
+                String[] array9 = {Territory9, Territory9, Territory9, TerritoryShpion};
                 List<String> list9 = new LinkedList<String>(Arrays.<String>asList(array9));
                 Collections.shuffle(list9);
                 
@@ -261,7 +275,7 @@ public class Shpion {
                 
             case 10:
                 //System.out.println("Церковь");
-                String[] array10 = {"Церковь", "Церковь", "Церковь", "Шпион"};
+                String[] array10 = {Territory10, Territory10, Territory10, TerritoryShpion};
                 List<String> list10 = new LinkedList<String>(Arrays.<String>asList(array10));
                 Collections.shuffle(list10);
                 
@@ -287,7 +301,7 @@ public class Shpion {
                 
             case 11:
                 //System.out.println("Казино");
-                String[] array11 = {"Казино", "Казино", "Казино", "Шпион"};
+                String[] array11 = {Territory11, Territory11, Territory11, TerritoryShpion};
                 List<String> list11 = new LinkedList<String>(Arrays.<String>asList(array11));
                 Collections.shuffle(list11);
                 
