@@ -37,7 +37,7 @@ public class Shpion {
         Random ran = new Random();
         int namber = ran.nextInt(11)+1;
         
-        switch (1){
+        switch (namber){
             case 1:             
                 String[] array1 = {Territory1, Territory1, Territory1, TerritoryShpion};
                 List<String> list1 = new LinkedList<String>(Arrays.<String>asList(array1));
