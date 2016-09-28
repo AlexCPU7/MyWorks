@@ -32,14 +32,14 @@ public class Shpion1_1 {
         List<String> RezTerritory = new LinkedList<String>(Arrays.<String>asList(ArrayTerritory));
         Collections.shuffle(RezTerritory);
         
-        String[] GameTerritory = {RezTerritory.get(0), RezTerritory.get(0), RezTerritory.get(0), TerritoryShpion};
+        String[] GameTerritory = {RezTerritory.get(0), RezTerritory.get(0), RezTerritory.get(0), RezTerritory.get(0), TerritoryShpion};
                 List<String> Territory = new LinkedList<String>(Arrays.<String>asList(GameTerritory));
                 Collections.shuffle(Territory);
                 
                 Scanner klick = new Scanner(System.in);
                 System.out.println("Нажмите Enter для продолжения...");
                 
-                for (int i = 0; i < 4; i++){
+                for (int i = 0; i < 5; i++){
                     int p = i + 1;
                     String player = klick.nextLine();
                     System.out.println("Игрок " + p + ": " + Territory.get(i));
