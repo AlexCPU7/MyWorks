@@ -19,7 +19,7 @@ public class Game {
         System.out.println();
         Random ran = new Random();
         int a = ran.nextInt(9)+1;
-        System.out.println(namber);
+        System.out.println(a);
     }
     
 }
