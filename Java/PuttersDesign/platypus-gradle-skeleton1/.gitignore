@@ -1,0 +1,9 @@
+.gradle
+.nb-gradle
+build
+private.properties
+src/pub
+src/reports
+src/pwc
+src/WEB-INF/classes
+src/WEB-INF/lib

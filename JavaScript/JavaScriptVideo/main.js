@@ -12,7 +12,7 @@ console.log(0.2 + 0.1);
 var a = 0.2;
 var b = 0.1;
 var rez = a + b;
-console.log(rez.toFixed(2));
+console.log(rez);
 
 var S = new Number(0.2);
 var D = new Number(0.1);
