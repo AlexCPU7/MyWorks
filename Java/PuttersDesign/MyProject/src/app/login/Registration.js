@@ -31,41 +31,6 @@ define('Registration', ['forms', 'ui', 'invoke', 'UserInformation'],
                     , address: ''
                 };
 
-//                function isUserExist(userMail, aCallback) {
-//                    var baseUrl = "http://" +
-//                            window.location.host +
-//                            window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/"))
-//                            + "/application/";
-//                    var request = new XMLHttpRequest();
-//                    request.open("GET", // За­прос ти­па HTTP GET
-//                            (baseUrl + "customers/" + userMail), true);
-//                    request.send();
-//                    request.onreadystatechange = function () {
-//                        if (request.readyState === request.DONE) {
-//                            if (request.status == 200) {
-//                                aCallback(request.responseText);
-//                            } else {
-//                                alert(request.statusText);
-//                            }
-//                        }
-//                    };
-//                }
-
-//        form.ffEmail.onValueChange = function (event) {
-//            if (form.ffEmail.value) {
-//                isUserExist(form.ffEmail.value, function (aResult) {
-//                    var result = JSON.parse(aResult);
-//                    if (result.userExist) {
-//                        event.source.background = P.Color.PINK;
-//                        event.source.toolTipText = "Пользователь с таким E-mail существует";
-//                    } else {
-//                        event.source.background = null;
-//                        event.source.toolTipText = '';
-//                    }
-//                });
-//            }
-//        };
-
                 function validatePwd() {
                     var pwdOne = form.pwdOne.value;
                     var pwdRepeat = form.pwdRepeat.value;
@@ -89,7 +54,6 @@ define('Registration', ['forms', 'ui', 'invoke', 'UserInformation'],
                     }
 
                 }
-
 
                 form.btnSubmit.onActionPerformed = function () {
                     var baseUrl = "http://" +
@@ -361,7 +325,5 @@ define('Registration', ['forms', 'ui', 'invoke', 'UserInformation'],
 
                 return temp.toLowerCase();
             }
-
-
 
         });
