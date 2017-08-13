@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script type="text/javascript" href="js.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("Hello Word!");       //Вывод текст на страницу
+            document.write("Hello Word!");
+            document.write("<br/>Hello Word!");  // <br/> перенос на след строку
+            
+          //x = x + y     ==      x += y 
+            var a = "12";
+            var b = "24";
+            document.write("<br />" + (Number(a) + Number(b)));    //переменные стали числами
+            
+            document.write("<br />" + 10 + " % " + 6 + " = " + (10%6));  //выводит остаток, который не делится на число
+            document.write("<br />");
+            
+            var numberSwitch = 5;
+            switch(numberSwitch) {
+                case 1: document.write("numberSwitch = 1"); break;
+                case 2: document.write("numberSwitch = 2"); break;
+                case 3: document.write("numberSwitch = 3"); break;
+                case 4: document.write("numberSwitch = 4"); break;
+                default: document.write("numberSwitch > 4");
+            }
+            document.write("<br />");
+            
+            var x = 2;
+            var y = 3;
+            x > y ? document.write("YES") : document.write("NO");
+            document.write("<br />");
+            
+            for(var i = 0; i <= 10; i++){
+                if(i %3 == 0) continue;                 //пропускае это условие и продолжает цикл
+                if(i == 8) break;                       //если i = 8, то цикл завершает свою работу
+                document.write("<br /> i = " + i);
+            }
+        </script>
+    </body>
+</html>

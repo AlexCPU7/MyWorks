@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script type="text/javascript" href="js.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            //создания массива
+            var mas = new Array("qwe", 7, 5.67, false);
+            
+            for(var i = 0; i < mas.length; i++){
+                document.write(mas[i] + "<br />")
+            }
+            
+            //сумма всего массива
+            var summMas = new Array();
+            for(var i = 0; i <= 10; i++){
+                summMas[i] = i * 2;
+            }
+            for(var i = 0; i < summMas.length; i++){
+                document.write(summMas[i] + "<br />")
+            }
+            var summ = 0;
+            for(var i = 0; i < summMas.length; i++){
+                summ += summMas[i];
+            }
+            document.write("Сумма массива = " + summ + "<br />");
+            
+            //многомерные массивы
+            
+        </script>
+    </body>
+</html>
